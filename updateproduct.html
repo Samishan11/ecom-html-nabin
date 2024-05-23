@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="admincontainer">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="admindashboard.html">
+                        <span class="fas fa-user"></span>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="addproduct.html">
+                        <span class="fab fa-product-hunt"></span>
+                        <span class="text">Add Product</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="clinicform.html">
+                        <span class="fas fa-clinic-medical"></span>
+                        <span class="text">Total Order</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="contactform.html">
+                        <span class="fas fa-file-contract"></span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="index.html">
+                        <span class="fas fa-home"></span>
+                        <span class="text">Go to website</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="addprcd">
+            <div class="detail">
+                <h1>Update Product</h1>
+                <form action="">
+                   <div class="addprdsdtl">
+                       <input required type="text" placeholder="Produuct Name">
+                   </div>
+                   <div class="addprdsdtl">
+                       <input required type="number" placeholder="Price">
+                   </div>
+                   <div class="addprdsdtl">
+                       <input required type="text" placeholder="Catagory">
+                   </div>
+                   <div class="addprdsdtl">
+                       <input required type="number" placeholder="Discount">
+                   </div>
+                   <div class="addprdsdtl">
+                       <input required type="text" placeholder="Detail">
+                   </div>
+                   <div class="addprdsdtl">
+                    <input required type="file">
+                   </div>
+                   <button type="submit">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/admin.js">
+    </script>
+</body>
+</html>
